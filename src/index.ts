@@ -1,7 +1,7 @@
 import "reflect-metadata";
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
-import { Arg, buildSchema, Field, InputType, Mutation, ObjectType, Query, Resolver } from 'type-graphql'
+import { Arg, buildSchema, Field, InputType, Mutation, ObjectType, Query, Resolver } from 'type-graphql';
 
 // On utilise les décorateurs "ObjectType" et "Field" de type-graphql qui permettent de marquer les données devant etre exposées dans le schéma 
 @ObjectType()
